@@ -1,89 +1,52 @@
-# Hi there! 👋 I'm Suprit U
+# Hi, I'm Suprit U
 
-## 🚀 Computer Science Student | Full-Stack Developer | AI Enthusiast
+## B.E. CS Graduate '26 (VTU 2022 Scheme, 9.12/10.0) | Backend / Full-Stack | Bengaluru, India
 
-### 🔭 Currently Working On
-- Building scalable web applications with modern tech stacks
-- Contributing to open-source projects
-- Exploring AI-powered development tools
-- Learning cloud technologies and DevOps practices
+Building backend-heavy systems: Node.js + TypeScript APIs, PostgreSQL with RLS, OAuth 2.0 PKCE, WebSockets, Docker. IEEE GSEACT 2026 paper + Indian patent application in Zero Trust access.
 
-### 🛠️ Tech Stack
+### Featured Projects (real, maintained)
+
+#### ZTNA Platform — AI-Powered Zero Trust Access Gateway
+Identity-aware proxy: OAuth 2.0 PKCE via Zitadel, JWT validation, 3-role RBAC, IP/geo checks, Gemini risk scoring, Dockerized PostgreSQL, audit logs.
+[Repo](https://github.com/Suprit-U/ZTNA) | IEEE DOI: [10.1109/GSEACT68539.2026.11620242](https://doi.org/10.1109/GSEACT68539.2026.11620242) | Patent: 202541112150 A
+> Demo: GIF walkthrough in repo (no live deploy — Zitadel setup required). Run locally via `docker compose up` in `Prerequisites/`.
+
+#### NexBoard — Real-Time Collaborative Whiteboard
+React + TypeScript + Socket.IO room broadcasting, Fabric.js canvas, Appwrite persistent chat, password rooms, PNG export.
+[Repo](https://github.com/Suprit-U/NexBoard)
+> Demo: screenshots in `Images/`. Frontend static on request; backend needs WebSocket host (Render).
+
+#### Sanchalana — Type-Safe Web Platform
+React 18 + Vite + Supabase/PostgreSQL, Zod validation, RLS multi-tenant isolation, real-time subscriptions, Radix + Tailwind.
+[Repo](https://github.com/Suprit-U/Sanchalana)
+
+#### Real-Time Traffic Sign Detection
+PyTorch YOLO, OpenCV pipeline, NMS tuning, CUDA/CPU fallback, 57MB `best.pt` included.
+[Repo](https://github.com/Suprit-U/Real-Time-Traffic-Sign)
+
+#### VTU Diary Automation
+Selenium + Flask + Gemini pipeline automating diary entries. Env-based creds, headless mode.
+[Repo](https://github.com/Suprit-U/VTU-Diary-Automation)
+
+#### Kaushalya Karnataka — Skill Platform (Android)
+Kotlin MVVM, Firebase Auth/Firestore offline-first, Admin + Candidate portals, certificates.
+[Repo](https://github.com/Suprit-U/Kaushalya-Karnataka)
+
+### Tech I actually use
 ```
-Frontend:  React, TypeScript, JavaScript, HTML5, CSS3, Tailwind
-Backend:   Node.js, Express.js, Python, Java
-Database:  PostgreSQL, MongoDB, MySQL, Redis
-Cloud:     AWS, Docker, Kubernetes, CI/CD
-Tools:     Git, VS Code, Postman, Jest, Prisma
-AI/ML:     OpenAI API, Machine Learning, Data Analysis
-```
-
-### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Suprit-U&show_icons=true&theme=radical&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Suprit-U&layout=compact&theme=radical)
-
-### 🌟 Featured Projects
-
-#### 🎬 **Movie-Flix-Kannada** 
-Kannada movie streaming platform with modern UI/UX - Full-stack web application
-[View Project](https://github.com/Suprit-U/Movie-Flix-Kannada)
-
-#### 📚 **BookmarkHub** 
-Smart bookmark manager with tagging, search, and organization features - React & Node.js
-[View Project](https://github.com/Suprit-U/BookmarkHub)
-
-#### 🚀 **30-Days-JavaScript-Challenge** 
-Daily coding challenges and solutions to master JavaScript fundamentals
-[View Project](https://github.com/Suprit-U/30-Days-JavaScript-Challenge)
-
-#### 🛠️ **dev-toolkit** 
-Developer utilities and tools collection - CLI tools, scripts, and productivity helpers
-[View Project](https://github.com/Suprit-U/dev-toolkit)
-
-#### 🎨 **CSS-Animation-Library** 
-Modern CSS animations, effects, and UI components showcase
-[View Project](https://github.com/Suprit-U/CSS-Animation-Library)
-
-#### 🤖 **AI-Code-Assistant** 
-AI-powered code snippets and automation scripts for developers
-[View Project](https://github.com/Suprit-U/AI-Code-Assistant)
-
-#### 📱 **Modern-Web-Stack** 
-Full-stack web application showcasing modern development practices
-[View Project](https://github.com/Suprit-U/Modern-Web-Stack)
-
-### 🏆 Achievements
-- 🔥 **100+ Commits** in the last month
-- 📈 **7+ Public Repositories** with comprehensive documentation
-- 🌟 **Active Learning** through daily coding challenges
-- 🛠️ **Real-world Projects** with modern tech stacks
-
-### 📈 Contribution Activity
-```
-🟩🟩🟩🟩🟩🟩🟩 Daily commits and consistent learning
-🚀 Building impressive projects for portfolio
-📚 Documenting journey through code challenges
-🤝 Contributing to open-source community
+Languages: TypeScript, Python, JavaScript, SQL, Kotlin, C++
+Backend: Node.js, Express, Flask, Socket.IO, REST, OAuth 2.0 PKCE, RBAC, JWT
+Data: PostgreSQL, Supabase, Firestore, MongoDB, Redis (basic), RLS, migrations
+Tools: Docker, Git, Linux, Postman, Selenium
+AI: Google Gemini API, PyTorch, YOLO, OpenCV
 ```
 
-### 💼 Skills Showcase
-- **Frontend Development**: React, TypeScript, Modern CSS, Responsive Design
-- **Backend Development**: Node.js, Express, RESTful APIs, Database Design
-- **DevOps**: Docker, CI/CD, Git Workflows, Testing Strategies
-- **AI Integration**: OpenAI API, Code Generation, Automation Tools
-- **Problem Solving**: Algorithms, Data Structures, System Design
+### Publications & IP
+- IEEE GSEACT 2026: "Next-Gen Secure Access Using Intelligent Zero Trust Network Architecture", pp. 1-6. DOI above.
+- Indian Patent App. 202541112150 A (Filed Nov 2025): AI-powered ZTNA risk scoring.
 
-### 📫 Let's Connect!
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/suprit-u)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:supritu4@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://suprit-u.github.io)
-
-### 🎯 2024 Goals
-- [ ] Complete 30-day JavaScript challenge
-- [ ] Build 5+ production-ready applications
-- [ ] Contribute to 10+ open-source projects
-- [ ] Master modern web development stack
-- [ ] Land an amazing developer role
+### Connect
+[LinkedIn](https://linkedin.com/in/suprit-u) | supritu4@gmail.com | Bengaluru, India
 
 ---
-⭐ From [Suprit-U](https://github.com/Suprit-U) | 💡 *"Code, Learn, Build, Repeat"*
+Pin order recommendation: ZTNA, NexBoard, Sanchalana, Real-Time-Traffic-Sign, VTU-Diary-Automation, Kaushalya-Karnataka. Unpin Public/Dev-Null placeholders.
