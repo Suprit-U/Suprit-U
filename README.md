@@ -2,7 +2,9 @@
 
 **B.E. Computer Science '26 — VTU (9.12 / 10.0) | Backend + AI | Bengaluru, India**
 
-Building backend-heavy systems: Node.js APIs, PostgreSQL with Row Level Security, OAuth 2.0 / PKCE, WebSockets, Docker. Two published papers and one Indian patent application in Zero Trust access.
+Building backend-heavy systems: Node.js APIs, PostgreSQL with Row Level Security, OAuth 2.0 / PKCE, WebSockets, Docker. A conference paper, a journal paper and one Indian patent application in Zero Trust access.
+
+**[Portfolio](https://suprit-u.github.io)** · **[LinkedIn](https://linkedin.com/in/suprit-u)** · **[Resume (PDF)](https://github.com/Suprit-U)**
 
 ---
 
@@ -18,7 +20,7 @@ Identity-aware reverse proxy: OAuth 2.0 / PKCE via Zitadel, JWT validation, 3-ro
 
 React + TypeScript + Socket.IO room broadcasting, Fabric.js canvas, Appwrite persistent chat, password-protected rooms, PNG export. Screenshots in `Images/`.
 
-[Repo](https://github.com/Suprit-U/NexBoard)
+[Live demo](https://nex-board-xi.vercel.app) · [Repo](https://github.com/Suprit-U/NexBoard)
 
 ### Sanchalana — Type-Safe Multi-Tenant Web Platform
 
@@ -72,4 +74,4 @@ Official Karnataka skill application. Kotlin MVVM, Firebase Auth + Cloud Firesto
 
 ## Connect
 
-[LinkedIn](https://linkedin.com/in/suprit-u) · supritu4@gmail.com · Bengaluru, India
+[Portfolio](https://suprit-u.github.io) · [LinkedIn](https://linkedin.com/in/suprit-u) · supritu4@gmail.com · Bengaluru, India
