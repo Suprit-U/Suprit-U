@@ -12,7 +12,7 @@ Building backend-heavy systems: Node.js APIs, PostgreSQL with Row Level Security
 
 ### ZTNA — AI-Powered Zero Trust Access Gateway
 
-Identity-aware reverse proxy: OAuth 2.0 / PKCE via Zitadel, JWT validation, 3-role RBAC, IP reputation checks, Gemini-based risk scoring, Dockerised PostgreSQL, audit logs.
+OAuth 2.0 / PKCE authentication against Zitadel with role validation and country-based access control. Every successful login is scored by a weighted rule engine (off-hours +20, unapproved country +30, admin role +20, capped at 100), and an `/analyze` endpoint sends each session to a locally hosted LLM (Ollama) for a risk summary.
 
 [Repo](https://github.com/Suprit-U/ZTNA) · IEEE DOI 10.1109/GSEACT68539.2026.11620242 · Patent App. 202541112150 A
 
@@ -45,6 +45,30 @@ Selenium + Flask + Gemini prompt-chain pipeline that automates academic diary en
 Official Karnataka skill application. Kotlin MVVM, Firebase Auth + Cloud Firestore with offline-first sync, separate Admin and Candidate portals, certificate generation. Built during a six-month internship, Jan–Jun 2026.
 
 [Repo](https://github.com/Suprit-U/Kaushalya-Karnataka)
+
+### CiteKit — Verifiable RAG
+
+Hybrid BM25 + dense retrieval fused with reciprocal rank fusion. Every answer carries a citation; five guardrails abstain when the corpus does not support the question. Ships an evaluation harness (MRR@5 0.700, recall@5 0.667, correct refusal on 3/3 unanswerable questions). Zero dependencies, offline. 48 tests.
+
+[Repo](https://github.com/Suprit-U/CiteKit)
+
+### PulseWatch — Change Detection & Alerts
+
+Conditional GET, token-level diffing, a noise floor that ignores reformatting, cooldowns and change fingerprints, SQLite WAL state, Telegram/webhook alerters, Prometheus status API. One-word change on a live page caught in ~3 ms. 56 tests.
+
+[Repo](https://github.com/Suprit-U/PulseWatch)
+
+### signlab-eval — Detection Evaluation & Dataset QA
+
+Seventeen YOLO dataset checks including train/val leakage detection by perceptual hashing, plus pure-Python mAP@50 / mAP@50-95 with a `--fail-under` CI gate. Exit codes separate model regression from dataset breakage. 53 tests.
+
+[Repo](https://github.com/Suprit-U/signlab-eval)
+
+---
+
+## Open source
+
+- **[marshmallow #3078](https://github.com/marshmallow-code/marshmallow/pull/3078)** — fixed `validate.Email` accepting a leading or trailing hyphen in the final domain label (and missing the 63-character cap). Reproduced on 4.3.1, punycode TLDs kept valid, regression tests added.
 
 ---
 
