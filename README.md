@@ -4,7 +4,7 @@
 
 Building backend-heavy systems: Node.js APIs, PostgreSQL with Row Level Security, OAuth 2.0 / PKCE, WebSockets, Docker. A conference paper, a journal paper and one Indian patent application in Zero Trust access.
 
-**[Portfolio](https://suprit-u.github.io)** · **[LinkedIn](https://linkedin.com/in/suprit-u)** · **[Resume (PDF)](https://github.com/Suprit-U)**
+**[Portfolio](https://suprit-u.github.io)** · **[LinkedIn](https://linkedin.com/in/suprit-u)** · **[GitHub](https://github.com/Suprit-U)**
 
 ---
 
